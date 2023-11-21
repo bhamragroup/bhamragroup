@@ -144,6 +144,16 @@ header {
     margin-top: var(--header-height);
 }
 
+/* ============ Footer ============= */
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-color);
+    padding: 24px 12px;
+}
+
 /* ============== Hero Section ================= */
 
 #hero-section .pitch {
