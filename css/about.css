@@ -1,0 +1,187 @@
+#about {
+
+}
+
+#about .container {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ========== About ========= */
+
+#about #who-we-are {
+    margin-bottom: 120px;
+}
+
+#about #who-we-are .left-side {
+    width: 60%;
+}
+
+#about #who-we-are .right-side {
+    width: 50%;
+    height: 400px;
+}
+
+#about #who-we-are .right-side img {
+    height: 400px;
+}
+
+/* ========== Leadership ========= */
+
+#about #leadership .title {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+#about #leadership .desc {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#about #leadership .leaders {
+    display: flex;
+    justify-content: center;
+}
+
+#about #leadership .leaders .leader {
+    flex: 0.5;
+    max-width: calc(50% - 24px);
+    margin: 0 6px;
+    overflow: hidden;
+}
+
+#about #leadership .leaders .leader .img {
+    margin-bottom: 12px;
+    display: flex;
+}
+
+#about #leadership .leaders .leader .img img {
+    width: 450px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about #leadership .leaders .leader .desc .name {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+#about #leadership .leaders .leader .desc .role {
+    text-align: center;
+}
+
+/* ========== Mission ========= */
+
+#about #our-mission {
+    margin-bottom: 60px;
+}
+
+#about #our-mission .right-side {
+    width: 60%;
+}
+
+#about #our-mission .left-side {
+    width: 50%;
+    height: 400px;
+}
+
+#about #our-mission .left-side img {
+    height: 400px;
+}
+
+/* ========== Vision ========= */
+
+#about #our-vision {
+    margin-bottom: 120px;
+}
+
+#about #our-vision .left-side {
+    width: 60%;
+}
+
+#about #our-vision .right-side {
+    width: 50%;
+    height: 400px;
+}
+
+#about #our-vision .right-side img {
+    height: 400px;
+}
+
+/* ========== Accreditation ========= */
+#accreditation-1 .main {
+    margin-top: max(10vh, 64px);
+    width: 100%;
+
+}
+#accreditation-1 .title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+#accreditation-1 .image-gallery {
+    padding: 16px;
+}
+
+#accreditation-1 .image-gallery .image-gallery-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#accreditation-1 .image-gallery .image-gallery-row .card {
+    border-radius: 4px;
+    width: calc(100% - 12px);
+    margin: 0 6px;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+    cursor: pointer;
+    /*box-shadow: 1px 1px 2px 2px #00000010;*/
+    margin-bottom: 24px;
+}
+
+#accreditation-1 .image-gallery .image-gallery-row .card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    transition: 0.5s ease-in-out;
+}
+
+#accreditation-1 .image-gallery .image-gallery-row .card .caption {
+    font-size: 20px;
+    text-align: center;
+    padding: 12px 16px;
+    background: #00000090;
+    color: var(--background-color);
+    position: absolute;
+    width: calc(100% - 24px);
+    bottom: -50px;
+    transition: 0.5s ease-in-out;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*transform: scale(0);*/
+    /*opacity: 0;*/
+
+}
+
+#accreditation-1 .image-gallery .image-gallery-row .card:hover img {
+    transform: scale(0.9);
+}
+
+#accreditation-1 .image-gallery .image-gallery-row .card:hover .caption {
+    /*transform: scale(1);*/
+    /*opacity: 1;*/
+    bottom: 0;
+}
