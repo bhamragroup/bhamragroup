@@ -1,0 +1,103 @@
+#careers .main {
+    margin-top: max(10vh, 64px);
+    width: 100%;
+
+}
+#careers .title {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+#careers .pitch {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 48px;
+    max-width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#careers .offers-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+#careers .offers-row .offers-card {
+    flex: 0.25;
+    margin: 16px;
+    padding: 16px;
+}
+
+#careers .offers-row .offers-card .offer-showcase {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#careers .offers-row .offers-card .offer-showcase i {
+    font-size: 64px;
+    color: #2F2F2F;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#careers .offers-row .offers-card .offers-content {
+    text-align: center;
+    padding: 8px;
+    margin-top: 32px;
+}
+
+#careers .offers-row .offers-card .content-head {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2F2F2F;
+    margin-bottom: 12px;
+}
+
+#careers .ready-to-join {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#careers .ready-to-join .content-side {
+    flex: 0.6;
+}
+
+#careers .ready-to-join .content-side .content-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2F2F2F;
+    margin-bottom: 12px;
+}
+
+#careers .ready-to-join .content-side .content-desc {
+    font-size: 16px;
+    color: #2F2F2F;
+    margin-bottom: 12px;
+}
+
+#careers .ready-to-join .cta-side {
+    flex: 0.4;
+    text-align: center;
+}
+
+#careers .ready-to-join .cta-side button {
+    width: 250px;
+}
