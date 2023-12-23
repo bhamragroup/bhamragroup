@@ -25,6 +25,8 @@
 
 .layout-1 .left-side .desc {
     width: 90%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .layout-1 .right-side {
@@ -87,6 +89,8 @@
 .layout-2 .right-side .desc {
     width: 90%;
     margin-left: auto;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .layout-2 button {
@@ -120,6 +124,8 @@
 
 .layout-3 .left-side .desc {
     width: 90%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .layout-3 .right-side {
