@@ -68,7 +68,7 @@
     position: absolute;
     top: 170px;
     z-index: -1;
-    right: -120px;
+    right: 100px;
     width: 1000px;
     height: 500px;
 }
