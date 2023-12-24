@@ -88,6 +88,55 @@ button:hover {
     }
 }
 
+
+.head {
+    text-align: center;
+}
+
+.head .title {
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0 auto;
+}
+
+.head .desc {
+    text-align: center;
+}
+
+
+/* ========== Common ============= */
+@media (max-width: 1040px) {
+    .head .title {
+        font-size: 32px !important;
+    }
+    .head .desc {
+        font-size: 14px !important;
+    }
+}
+
+
+@media (max-width: 740px) {
+    .head .title {
+        font-size: 32px !important;
+    }
+    .head .desc {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 460px) {
+    .head .title {
+        font-size: 28px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .head .title {
+        font-size: 24px !important;
+    }
+}
+
+
 /* ============== Header ================= */
 
 header {
