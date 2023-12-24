@@ -92,6 +92,10 @@
     margin-bottom: 60px;
 }
 
+#home #group-1 .main {
+    margin-top: 32px;
+}
+
 #home #group-1 .right-side {
     width: 60%;
 }
@@ -109,6 +113,10 @@
 
 #home #group-2 {
     margin-bottom: 120px;
+}
+
+#home #group-2 .main {
+    margin-top: 24px;
 }
 
 #home #group-2 .left-side {
@@ -178,6 +186,11 @@
     margin-bottom: 60px;
 }
 
+
+#home #services #service-1 .main {
+    margin-top: 32px;
+}
+
 #home #services #service-1 .right-side {
     width: 60%;
 }
@@ -197,6 +210,10 @@
     margin-bottom: 120px;
 }
 
+#home #services #service-2 .main {
+    margin-top: 24px;
+}
+
 #home #services #service-2 .left-side {
     width: 60%;
 }
@@ -209,3 +226,41 @@
 #home #services #service-2 .right-side img {
     height: 400px;
 }
+
+
+/* ======= Footer =========== */
+#home .contact-us {
+    max-width: 1440px;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home .contact-us .content-side {
+    flex: 0.4;
+}
+
+#home .contact-us .content-side .content-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #2F2F2F;
+    margin-bottom: 12px;
+}
+
+#home .contact-us .content-side p {
+    margin-bottom: 8px;
+}
+
+#home .contact-us .cta-side {
+    flex: 0.6;
+    text-align: right;
+
+}
+
+#home .contact-us .cta-side img {
+    border: 1px solid black;
+}
+
