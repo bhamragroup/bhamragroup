@@ -83,6 +83,13 @@
 }
 
 @media (max-width: 1024px) {
+    #hero-section {
+        height: auto;
+        min-height: unset;
+    }
+    #hero-section .container {
+        height: auto;
+    }
     #hero-section .pitch-text {
         font-size: 64px;
     }
@@ -99,13 +106,6 @@
 }
 
 @media (max-width: 740px) {
-    #hero-section {
-        height: auto;
-        min-height: unset;
-    }
-    #hero-section .container {
-        height: auto;
-    }
     #hero-section .pitch {
         width: auto;
     }

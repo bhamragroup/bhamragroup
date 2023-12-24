@@ -136,9 +136,19 @@
         height: 300px;
     }
     .layout-2 .right-side .title {
-        font-size: 38px;
+        font-size: 32px;
     }
 }
+
+@media (max-width: 360px) {
+    .layout-2 .left-side {
+        height: 250px;
+    }
+    .layout-2 .right-side .title {
+        font-size: 28px;
+    }
+}
+
 
 /* ============== Layout 3 ================= */
 .layout-3 {
@@ -224,7 +234,16 @@
         height: 300px;
     }
     .layout-3 .left-side .title {
-        font-size: 38px;
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 360px) {
+    .layout-3 .right-side {
+        height: 250px;
+    }
+    .layout-3 .left-side .title {
+        font-size: 28px;
     }
 }
 
@@ -237,5 +256,17 @@
     }
     .head .desc {
         font-size: 14px !important;
+    }
+}
+
+@media (max-width: 460px) {
+    .head .title {
+        font-size: 28px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .head .title {
+        font-size: 24px !important;
     }
 }
