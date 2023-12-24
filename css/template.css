@@ -129,6 +129,12 @@
     .layout-2 .right-side .title {
         font-size: 48px;
     }
+    .left-side .desc {
+        font-size: 14px !important;
+    }
+    .right-side .desc {
+        font-size: 14px !important;
+    }
 }
 
 @media (max-width: 460px) {
@@ -137,6 +143,12 @@
     }
     .layout-2 .right-side .title {
         font-size: 32px;
+    }
+    .left-side .desc {
+        font-size: 12px !important;
+    }
+    .right-side .desc {
+        font-size: 12px !important;
     }
 }
 
@@ -257,11 +269,23 @@
     .head .desc {
         font-size: 14px !important;
     }
+    .left-side .desc {
+        font-size: 14px !important;
+    }
+    .right-side .desc {
+        font-size: 14px !important;
+    }
 }
 
 @media (max-width: 460px) {
     .head .title {
         font-size: 28px !important;
+    }
+    .left-side .desc {
+        font-size: 12px !important;
+    }
+    .right-side .desc {
+        font-size: 12px !important;
     }
 }
 
