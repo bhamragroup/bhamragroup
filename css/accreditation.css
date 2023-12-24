@@ -23,7 +23,7 @@
 
 #accreditation-1 .image-gallery .image-gallery-row .card {
     border-radius: 4px;
-    width: calc(100% - 12px);
+    width: 33.33%;
     margin: 0 6px;
     position: relative;
     overflow: hidden;

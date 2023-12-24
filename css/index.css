@@ -25,6 +25,8 @@ body {
     margin: 0 auto;
     padding: 0 24px;
     overflow: hidden;
+    position: relative;
+    width: 100%;
 }
 
 button {
@@ -61,6 +63,20 @@ button:hover {
     /*padding-bottom: 32px;*/
     min-height: calc(100vh - var(--header-height));
     position: relative;
+}
+
+.gradient-text {
+    background: linear-gradient(63deg,#11adbd 0%,#0020d8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: max-content;
+}
+
+.gradient-black-text {
+    background: linear-gradient(63deg,#000 4%,#b3b3b3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: max-content;
 }
 
 /* ============== Header ================= */

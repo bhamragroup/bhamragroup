@@ -1,8 +1,19 @@
 /* ============== Hero Section ================= */
 
+#hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-section .container {
+    height: 100vh;
+}
+
 #hero-section .pitch {
     width: max-content;
-    margin-top: 64px;
+    padding: 64px 0;
+    z-index: 1;
 }
 
 #hero-section .pitch-text {
@@ -66,16 +77,15 @@
 
 #hero-section .hero-image {
     position: absolute;
-    top: 170px;
+    top: 60px;
     z-index: -1;
-    right: 100px;
-    width: 1000px;
-    height: 500px;
+    right: -70px;
 }
 
 #home #the-group .head .title {
     font-size: 38px;
     font-weight: 600;
+    margin: 0 auto;
     margin-bottom: 8px;
     text-align: center;
 }
@@ -140,6 +150,7 @@
 #home #client .title {
     font-size: 38px;
     font-weight: 600;
+    margin: 0 auto;
     margin-bottom: 8px;
     text-align: center;
 }
@@ -173,6 +184,7 @@
 #home #services .head .title {
     font-size: 38px;
     font-weight: 600;
+    margin: 0 auto;
     margin-bottom: 8px;
     text-align: center;
 }
@@ -224,6 +236,53 @@
 }
 
 #home #services #service-2 .right-side img {
+    height: 400px;
+}
+
+/* ========== Service 3 ========= */
+
+#home #services #service-3 {
+    margin-bottom: 60px;
+}
+
+
+#home #services #service-3 .main {
+    margin-top: 24px;
+}
+
+#home #services #service-3 .right-side {
+    width: 60%;
+}
+
+#home #services #service-3 .left-side {
+    width: 50%;
+    height: 400px;
+}
+
+#home #services #service-3 .left-side img {
+    height: 400px;
+}
+
+/* ========== Service 4 ========= */
+
+#home #services #service-4 {
+    margin-bottom: 120px;
+}
+
+#home #services #service-4 .main {
+    margin-top: 24px;
+}
+
+#home #services #service-4 .left-side {
+    width: 60%;
+}
+
+#home #services #service-4 .right-side {
+    width: 50%;
+    height: 400px;
+}
+
+#home #services #service-4 .right-side img {
     height: 400px;
 }
 
