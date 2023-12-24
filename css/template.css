@@ -7,7 +7,7 @@
     display: flex;
     align-items: center;
     /*background: darkgray;*/
-    margin-top: max(10vh, 64px);
+    /*margin-top: max(10vh, 64px);*/
     /*height: max(70vh, 400px);*/
 }
 
@@ -57,7 +57,7 @@
     display: flex;
     align-items: center;
     /*background: darkgray;*/
-    margin-top: max(10vh, 64px);
+    /*margin-top: max(10vh, 64px);*/
     /*height: max(70vh, 400px);*/
 }
 
@@ -109,7 +109,7 @@
     display: flex;
     align-items: center;
     /*background: darkgray;*/
-    margin-top: max(10vh, 64px);
+    /*margin-top: max(10vh, 64px);*/
     /*height: max(70vh, 400px);*/
 }
 
