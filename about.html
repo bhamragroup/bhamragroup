@@ -8,9 +8,11 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap"
+          rel="stylesheet">
 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/template.css">
@@ -20,151 +22,139 @@
     <script src="js/parallax.js"></script>
 </head>
 <body id="about">
-    <header>
-        <div class="header container">
-            <a class="brand-logo">
-                <div class="">
-                    <img src="img/bhamra-logo.svg" alt="bhamra-group"/>
-                </div>
-                <span>BHAMRA GROUP</span>
+<header>
+    <div class="header container">
+        <a class="brand-logo" href="/">
+            <img src="img/bhamra-logo.svg" alt="bhamra-group"/>
+            <span>BHAMRA GROUP</span>
+        </a>
+        <div class="menu-ul">
+            <a class="menu-li" href="/about">About</a>
+            <a class="menu-li" href="/accreditation">Accreditation</a>
+            <a class="menu-li" href="/gallery">Gallery</a>
+            <a class="menu-li" href="/careers">Careers</a>
+        </div>
+        <div class="get-intouch">
+            <div>
+                <a class="socials" href="https://www.facebook.com/p/Bhamra-Concrete-Services-LLP-100057434679951/"><i
+                        class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a class="socials" href="https://wa.me/919004002324"><i class="fa fa-whatsapp"
+                                                                        aria-hidden="true"></i></a>
+                <a class="socials" href="mailto:bhamragroup@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+            <!--            ToDo: check this-->
+            <a href="tel:+9102235647986">
+                <button>
+                    GET IN TOUCH
+                </button>
             </a>
-            <div class="menu-ul">
+        </div>
+        <div>
+            <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "100%";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+            </script>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a class="menu-li" href="/about">About</a>
                 <a class="menu-li" href="/accreditation">Accreditation</a>
                 <a class="menu-li" href="/gallery">Gallery</a>
                 <a class="menu-li" href="/careers">Careers</a>
             </div>
-            <div class="get-intouch">
-                <div>
-                    <a class="socials" href="https://www.facebook.com/p/Bhamra-Concrete-Services-LLP-100057434679951/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a class="socials" href="https://wa.me/919004002324"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                    <a class="socials" href="mailTo:bhamragroup@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <span class="hamburger-menu" onclick="openNav()">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </span>
+        </div>
+    </div>
+</header>
+<div class="content">
+    <section class="layout-3" id="who-we-are">
+        <div class="container">
+            <div class="main">
+                <div class="head">
+                    <p class="title gradient-text">WHO WE ARE</p>
+                    <p class="desc">At BHAMRA CONCRETE PRIVATE LIMITED, we are committed to providing the highest level
+                        of customer service and satisfaction. We strive to exceed expectations with every interaction
+                        and delivery.
+                        <br/><br/>
+                        With 90% of the Fleet of BS VI, we are committed towards sustainability, reducing the
+                        environmental pollution due to our vehicle operation.
+                    </p>
                 </div>
-                <a href="tel:+9102235647986"><button>
-                    GET IN TOUCH
-                </button></a>
             </div>
         </div>
-    </header>
-    <div class="content">
-        <section class="layout-3" id="who-we-are">
-            <div class="container">
-                <div class="main">
-                    <div class="left-side">
-                        <p class="title">Who we are</p>
-                        <div class="divider"></div>
-                        <p class="desc"><b>Bhamra Concrete Private Limited is a leading RMC Logistic company in Mumbai Region</b>
-                            With Fleet of More than 250 Vehicles the company delivering 1.5 Million Cu.m per month
-                            </p>
-                    </div>
-                    <div class="right-side">
-                        <img src="img/New%20TM.jpeg" alt="hero" class="company-3-img"/>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="leadership">
-            <div class="container">
-                <div class="main">
-                    <p class="title">Leadership</p>
-                    <p class="desc">Write some content related to the leadership of both of them</p>
-                    <div class="leaders">
-                        <div class="leader">
-                            <div class="img">
-                                <img src="img/face/Manmeet.jpg" alt="hero"/>
-                            </div>
-                            <div class="desc">
-                                <p class="name">Mr. Manmeet Singh Bhamra</p>
-                                <p class="role">Director</p>
-                            </div>
+    </section>
+    <section id="leadership">
+        <div class="container">
+            <div class="main">
+                <p class="title gradient-text">LEADERSHIP</p>
+                <p class="desc">Write some content related to the leadership of both of them</p>
+                <div class="leaders">
+                    <div class="leader">
+                        <div class="img">
+                            <img src="img/face/Manmeet.jpg" alt="hero"/>
                         </div>
-                        <div class="leader">
-                            <div class="img">
-                                <img src="img/face/Chanmeet.jpg" alt="hero" class="company-3-img"/>
-                            </div>
-                            <div class="desc">
-                                <p class="name">Mr. Chanmeet Singh Bhamra</p>
-                                <p class="role">Director</p>
-                            </div>
+                        <div class="desc">
+                            <p class="name">Mr. Manmeet Singh Bhamra</p>
+                            <p class="role">Director</p>
+                        </div>
+                    </div>
+                    <div class="leader">
+                        <div class="img">
+                            <img src="img/face/Chanmeet.jpg" alt="hero" class="company-3-img"/>
+                        </div>
+                        <div class="desc">
+                            <p class="name">Mr. Chanmeet Singh Bhamra</p>
+                            <p class="role">Director</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="layout-2" id="our-mission">
-            <div class="container">
-                <div class="main">
-                    <div class="left-side">
-                        <img src="img/stock-img.jpeg" alt="hero" class="company-2-img"/>
-                    </div>
-                    <div class="right-side">
-                        <p class="title">Our Mision</p>
-                        <div class="divider"></div>
-                        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros,
-                            pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.
-                            Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex,
-                            in pretium orci vestibulum eget. <br/> auctor consequat urna. Morbi a bibendum metus.
-                            Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex,
-                            in pretium orci vestibulum eget</p>
-                    </div>
+        </div>
+    </section>
+    <section class="layout-2" id="our-mission">
+        <div class="container">
+            <div class="main">
+                <div class="left-side">
+                    <img src="img/stock-img.jpeg" alt="hero" class="company-2-img"/>
+                </div>
+                <div class="right-side">
+                    <p class="title gradient-text">Our Mision</p>
+                    <div class="divider"></div>
+                    <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros,
+                        pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.
+                        Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex,
+                        in pretium orci vestibulum eget. <br/> auctor consequat urna. Morbi a bibendum metus.
+                        Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex,
+                        in pretium orci vestibulum eget</p>
                 </div>
             </div>
-        </section>
-        <section class="layout-3" id="our-vision">
-            <div class="container">
-                <div class="main">
-                    <div class="left-side">
-                        <p class="title">Our Vision</p>
-                        <div class="divider"></div>
-                        <p class="desc">We are operating with a vision to Delivery 2.5 Milliom Cu.m of RMC every month by the year 2030</p>
-                    </div>
-                    <div class="right-side">
-                        <img src="img/stock-img.jpeg" alt="hero" class="company-3-img"/>
-                    </div>
+        </div>
+    </section>
+    <section class="layout-3" id="our-vision">
+        <div class="container">
+            <div class="main">
+                <div class="left-side">
+                    <p class="title gradient-text">Our Vision</p>
+                    <div class="divider"></div>
+                    <p class="desc">We are operating with a vision to Delivery 2.5 Milliom Cu.m of RMC every month by
+                        the year 2030</p>
+                </div>
+                <div class="right-side">
+                    <img src="img/stock-img.jpeg" alt="hero" class="company-3-img"/>
                 </div>
             </div>
-        </section>
-        <section class="page" id="accreditation-1">
-            <div class="container">
-                <div class="main">
-                    <p class="title">Accreditation | Certificates</p>
-                    <div class="image-gallery">
-                        <div class="image-gallery-row">
-                            <div class="card">
-                                <img src="img/certificate.jpeg"/>
-                                <p class="caption">Cerificate 1</p>
-                            </div>
-                            <div class="card">
-                                <img src="img/certificate.jpeg"/>
-                                <p class="caption">Cerificate 2</p>
-                            </div>
-                            <div class="card">
-                                <img src="img/certificate.jpeg"/>
-                                <p class="caption">Cerificate 3</p>
-                            </div>
-                        </div>
-                        <div class="image-gallery-row">
-                            <div class="card">
-                                <img src="img/certificate.jpeg"/>
-                                <p class="caption">Cerificate 1</p>
-                            </div>
-                            <div class="card">
-                                <img src="img/certificate.jpeg"/>
-                                <p class="caption">Cerificate 2</p>
-                            </div>
-                            <div class="card">
-                                <img src="img/certificate.jpeg"/>
-                                <p class="caption">Cerificate 3</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </div>
-    <footer>
-        Designed & Developed by <a href="https://mithiljain.com"> &nbsp;Mithil Jain</a>
-    </footer>
+        </div>
+    </section>
+</div>
+<footer>
+    Designed & Developed by <a href="https://mithiljain.com"> &nbsp;Mithil Jain</a>
+</footer>
 </body>
 </html>
 
