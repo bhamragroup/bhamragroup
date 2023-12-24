@@ -227,3 +227,15 @@
         font-size: 38px;
     }
 }
+
+
+/* ========== Common ============= */
+
+@media (max-width: 740px) {
+    .head .title {
+        font-size: 32px !important;
+    }
+    .head .desc {
+        font-size: 14px !important;
+    }
+}

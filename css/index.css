@@ -79,6 +79,15 @@ button:hover {
     width: max-content;
 }
 
+@media (max-width: 740px) {
+    .container {
+        padding: 0 16px;
+    }
+    .title {
+        width: fit-content;
+    }
+}
+
 /* ============== Header ================= */
 
 header {
