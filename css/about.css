@@ -66,19 +66,18 @@
 
 #about #leadership .leaders .leader {
     flex: 0.5;
-    max-width: calc(50% - 24px);
     margin: 0 6px;
     overflow: hidden;
+    border-radius: 8px;
 }
 
 #about #leadership .leaders .leader .img {
     margin-bottom: 12px;
-    display: flex;
 }
 
 #about #leadership .leaders .leader .img img {
-    width: 450px;
-    height: 500px;
+    width: auto;
+    border-radius: 8px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -135,7 +134,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 60px;
 }
 
 #about .presence-row .presence-card {

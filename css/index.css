@@ -1,6 +1,6 @@
 :root {
     --theme-color: #609bfb;
-    --background-color: whitesmoke;
+    --background-color: white;
     --primary-font-color: #2F2F2F;
     --header-height: 60px
 }
@@ -90,6 +90,18 @@ button:hover {
     width: max-content;
 }
 
+/* ==========  Backgrounds ============= */
+.bg-1 {
+    background: whitesmoke;
+}
+
+.bg-2 {
+    background: #b3b3b3;
+}
+
+.footer-bg {
+    background: #1f1f1f;
+}
 
 /* ==========  Section ============= */
 .section {
@@ -329,6 +341,6 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--background-color);
-    padding: 24px 12px;
+    padding: 16px 24px;
+    color: white;
 }
