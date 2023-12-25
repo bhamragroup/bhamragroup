@@ -11,8 +11,6 @@
 /* ========== About ========= */
 
 #about #who-we-are {
-    margin-top: 120px;
-    margin-bottom: 120px;
     text-align: center;
 }
 
@@ -99,7 +97,6 @@
 /* ========== Mission ========= */
 
 #about #our-mission {
-    margin-bottom: 60px;
 }
 
 #about #our-mission .right-side {
@@ -118,7 +115,6 @@
 /* ========== Vision ========= */
 
 #about #our-vision {
-    margin-bottom: 120px;
 }
 
 #about #our-vision .left-side {
