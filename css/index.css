@@ -397,6 +397,9 @@ header {
     #footer .contact-us .cta-side {
         width: 100%;
     }
+    #footer .contact-us .cta-side iframe {
+        width: 100% !important;
+    }
 }
 
 footer {

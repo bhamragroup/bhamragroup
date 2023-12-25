@@ -1,5 +1,4 @@
 #accreditation-1 .main {
-    margin-top: max(10vh, 64px);
     width: 100%;
 
 }
@@ -11,20 +10,17 @@
     margin-bottom: 48px;
 }
 
-#accreditation-1 .image-gallery {
-    padding: 16px;
-}
-
 #accreditation-1 .image-gallery .image-gallery-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #accreditation-1 .image-gallery .image-gallery-row .card {
+    padding: 0 16px;
     border-radius: 4px;
-    width: 33.33%;
-    margin: 0 6px;
+    width: 25%;
     position: relative;
     overflow: hidden;
     height: 350px;
@@ -64,7 +60,17 @@
 }
 
 #accreditation-1 .image-gallery .image-gallery-row .card:hover .caption {
-    /*transform: scale(1);*/
-    /*opacity: 1;*/
     bottom: 0;
+}
+
+@media (max-width: 740px) {
+    #accreditation-1 .image-gallery .image-gallery-row .card {
+        width: 40%;
+    }
+}
+
+@media (max-width: 740px) {
+    #accreditation-1 .image-gallery .image-gallery-row .card {
+        width: 100%;
+    }
 }
