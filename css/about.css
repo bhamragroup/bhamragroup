@@ -44,6 +44,12 @@
     height: 400px;
 }
 
+@media (max-width: 1040px) {
+    #about #who-we-are .head {
+        width: 100%;
+    }
+}
+
 /* ========== Leadership ========= */
 
 #about #leadership .title {
@@ -65,9 +71,7 @@
 }
 
 #about #leadership .leaders .leader {
-    flex: 0.5;
-    margin: 0 6px;
-    overflow: hidden;
+    text-align: center;
     border-radius: 8px;
 }
 
@@ -76,7 +80,7 @@
 }
 
 #about #leadership .leaders .leader .img img {
-    width: auto;
+    width: 100%;
     border-radius: 8px;
     margin-left: auto;
     margin-right: auto;
@@ -132,13 +136,12 @@
 /* ============== Presence ============== */
 #about .presence-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 #about .presence-row .presence-card {
     flex: 0.25;
-    margin: 16px;
     padding: 16px;
 }
 
@@ -161,4 +164,8 @@
     color: #2F2F2F;
     margin: 0 auto;
     margin-bottom: 12px;
+}
+
+@media (max-width: 740px) {
+
 }
