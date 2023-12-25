@@ -128,6 +128,7 @@
     }
     .layout-2 .right-side .title {
         font-size: 48px;
+        margin-bottom: 24px;
     }
     .left-side .desc {
         font-size: 14px !important;
@@ -143,6 +144,7 @@
     }
     .layout-2 .right-side .title {
         font-size: 32px;
+        margin-bottom: 18px;
     }
     .left-side .desc {
         font-size: 12px !important;
@@ -158,6 +160,7 @@
     }
     .layout-2 .right-side .title {
         font-size: 28px;
+        margin-bottom: 16px;
     }
 }
 
@@ -238,6 +241,7 @@
     }
     .layout-3 .left-side .title {
         font-size: 48px;
+        margin-bottom: 24px;
     }
 }
 
@@ -247,6 +251,7 @@
     }
     .layout-3 .left-side .title {
         font-size: 32px;
+        margin-bottom: 18px;
     }
 }
 
@@ -256,6 +261,7 @@
     }
     .layout-3 .left-side .title {
         font-size: 28px;
+        margin-bottom: 16px;
     }
 }
 
