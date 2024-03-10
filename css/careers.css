@@ -1,10 +1,11 @@
+#careers .content {
+    padding-top: 60px;
+}
 #careers .main {
-    margin-top: max(10vh, 64px);
     width: 100%;
-
 }
 #careers .title {
-    font-size: 44px;
+    font-size: 32px;
     font-weight: bold;
     text-align: center;
     width: 100%;
@@ -12,7 +13,7 @@
 }
 
 #careers .pitch {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     text-align: center;
     width: 100%;
@@ -24,7 +25,7 @@
 
 #careers .offers-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 60px;
 }
@@ -100,4 +101,26 @@
 
 #careers .ready-to-join .cta-side button {
     width: 250px;
+}
+
+@media (max-width: 740px) {
+    #careers .offers-row .offers-card {
+        flex: 0.5;
+        margin: 0;
+    }
+    #careers .offers-row .offers-card .offer-showcase i {
+        font-size: 36px;
+        height: 60px;
+        width: 60px;
+    }
+    #careers .offers-row .offers-card .offers-content {
+        margin-top: 24px;
+    }
+    #careers .ready-to-join {
+        display: block;
+        margin-bottom: 64px;
+    }
+    #careers .ready-to-join .cta-side {
+        text-align: left;
+    }
 }
