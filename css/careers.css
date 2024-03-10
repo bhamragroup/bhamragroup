@@ -106,7 +106,10 @@
 @media (max-width: 740px) {
     #careers .offers-row .offers-card {
         flex: 0.5;
+        min-width: calc(50% - 16px);
         margin: 0;
+        padding: 4px;
+        margin-bottom: 24px;
     }
     #careers .offers-row .offers-card .offer-showcase i {
         font-size: 36px;
@@ -114,7 +117,8 @@
         width: 60px;
     }
     #careers .offers-row .offers-card .offers-content {
-        margin-top: 24px;
+        margin-top: 12px;
+        padding: 0px;
     }
     #careers .ready-to-join {
         display: block;
