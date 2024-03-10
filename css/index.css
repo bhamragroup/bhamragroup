@@ -231,13 +231,23 @@ header {
     font-weight: 500;
     padding: 6px 6px;
     border-bottom: 2px solid transparent;
-    transition: 0.5s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+.menu-li.active {
+    padding-bottom: 8px;
+    border-color: var(--theme-color);
+    color: var(--theme-color);
 }
 
 .menu-ul .menu-li:hover {
     padding-bottom: 16px;
     border-color: var(--theme-color);
     color: var(--theme-color);
+}
+
+.menu-li.active:hover {
+    opacity: 0.6;
 }
 
 .header .get-intouch {
