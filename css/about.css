@@ -76,7 +76,8 @@
 }
 
 #about #leadership .leaders .leader .img {
-    margin-bottom: 12px;
+    width: 460px;
+    margin: auto;
 }
 
 #about #leadership .leaders .leader .img img {
